@@ -158,3 +158,13 @@ a:hover{
 .week {
   background-color: #dcaeed;
 }
+
+footer {
+  background-color: #9233b5;
+  color: #fff;
+}
+
+.nav-two {
+  margin: 0;
+  padding: 0;
+}
