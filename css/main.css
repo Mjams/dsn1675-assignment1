@@ -164,7 +164,16 @@ footer {
   color: #fff;
 }
 
-.nav-two {
+.nav-two ul{
+  background-color: #9233b5;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+}
+
+.nav-two a {
+  color: #dcaeed;
+  display: block;
+  padding: .5em 1em;
+  text-decoration: none;
 }
