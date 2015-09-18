@@ -24,7 +24,7 @@ body {
 }
 
 .masthead{
-  background-color: lavender;
+  background-color: #dcaeed;
 }
 
 .title {
@@ -33,16 +33,21 @@ body {
 }
 
 .nav {
-  background-color: purple;
+  background-color: #9233b5;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .nav a {
+  color: #dcaeed;
   display: block;
   padding: .5em 1em;
   text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: #aa70c1;
 }
 
 .logo{
@@ -60,6 +65,7 @@ body {
   color: #fff;
   text-shadow: 0 2px 10px black;
   text-align: center;
+  margin: 0;
 }
 
 .seven-img {
@@ -68,10 +74,41 @@ body {
   margin: 0 auto;
 }
 
+.banner h2 {
+  color: #fff;
+}
+
 h3{
   text-align: center;
 }
 
 h2 {
   text-align: center;
+  margin: 0;
+  color: #9233b5;
+}
+
+main {
+  background-color: #dcaeed;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  padding: 0.75em;
+  background-color: #9233b5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+
+}
+
+a:hover{
+  background-color: #aa70c1
 }
