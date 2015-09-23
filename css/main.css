@@ -266,10 +266,15 @@ footer {
     margin: 0;
   }
 
-  .banner, .banner-two{
+  .banner {
     padding: 6em;
+    background-size: 70%;
+    background-position: top right;
   }
-
-  .banner  , .banner-two
+  .banner h2, .banner p{
+    float: right;
+    clear: both;
+    width: 70%;
+  }
 
 }
