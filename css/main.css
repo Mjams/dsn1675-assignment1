@@ -6,6 +6,7 @@
 
 
 html {
+  background-color: #dcaeed;
   box-sizing: border-box;
   moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -200,8 +201,9 @@ footer {
     display: inline-block;
   }
 
-  .banner{
+  .banner, .banner-two{
     padding: 4em;
+    clear: both;
   }
 
   .money{
@@ -209,10 +211,6 @@ footer {
     float: left;
     width: 50%;
     margin-bottom: 1em;
-  }
-
-  .banner-two {
-    clear: both;
   }
 
   .about {
@@ -229,5 +227,49 @@ footer {
     font-size: 2rem;
     float: left;
   }
+
+}
+
+@media only screen and (min-width: 50em ){
+
+  .masthead {
+    position: fixed;
+    float: left;
+    width: 27%;
+  }
+
+  main{
+    float: right;
+    width: 70%
+  }
+
+  .nav li{
+    display: block;
+  }
+
+
+  .logo{
+    padding: 0;
+    display: block;
+    float: none;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 27%;
+    float: left;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .banner, .banner-two{
+    padding: 6em;
+  }
+
+  .banner  , .banner-two
 
 }
