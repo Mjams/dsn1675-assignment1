@@ -191,6 +191,11 @@ footer {
     font-size: 1rem;
   }
 
+  .nav {
+    clear: both;
+    width: 100%;
+  }
+
   .nav li{
     display: inline-block;
   }
@@ -212,6 +217,17 @@ footer {
 
   .about {
     display: inline-block;
+  }
+
+  .logo{
+    padding: 1em;
+    width: 100px;
+    float: left;
+  }
+
+  .title {
+    font-size: 2rem;
+    float: left;
   }
 
 }
