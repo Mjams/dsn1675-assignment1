@@ -292,6 +292,13 @@ footer {
 
 }
 
+@media only screen and(min-width: 90em){
+
+  html{
+    font-size: 110%;
+    line-height: 1.4;
+  }  
+}
 @media print{
 
   nav{
