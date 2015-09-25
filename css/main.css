@@ -209,6 +209,7 @@ footer {
   }
 
   .banner, .banner-two{
+    width: 110%;
     padding: 4em;
     clear: both;
   }
@@ -240,7 +241,7 @@ footer {
 @media only screen and (min-width: 50em ){
 
   html{
-    font-size: 120%;
+    font-size: 100%;
     line-height: 1.5;
   }
 
