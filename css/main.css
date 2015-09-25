@@ -297,14 +297,14 @@ footer {
   html{
     font-size: 110%;
     line-height: 1.4;
-  }  
+  }
 }
 @media print{
 
   nav{
     display: none;
   }
-  .btn{
+  .btn a::after{
       content: " (" attr(href) ")";
   }
 }
